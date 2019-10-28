@@ -84,7 +84,8 @@ export const PERSONS = {
 'Rey' : 'https://vignette.wikia.nocookie.net/starwars/images/f/f8/ReyTLJEntertainmentWeeklyNovember.png',
 'Poe Dameron' : 'https://vignette.wikia.nocookie.net/starwars/images/7/79/Poe_Dameron_TLJ.png',
 'BB8' : 'https://vignette.wikia.nocookie.net/starwars/images/6/68/BB8-Fathead.png',
-'Captain Phasma' : 'https://vignette.wikia.nocookie.net/starwars/images/0/02/Phasma.png'};
+'Captain Phasma' : 'https://vignette.wikia.nocookie.net/starwars/images/0/02/Phasma.png',
+'Taun We':'https://drive.google.com/open?id=1gxmplsnfPHcSlmiofPdmEDlL9nxDZyOg'};
 
 export const VEHICLES = {
 'Sand Crawler' : 'https://lumiere-a.akamaihd.net/v1/images/databank_sandcrawler_01_169_55acf6cb.jpeg?region=431%2C0%2C877%2C878',

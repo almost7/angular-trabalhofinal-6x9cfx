@@ -1,0 +1,15 @@
+*{  
+  font-family: Arial, sans-serif;
+}
+#dados{
+
+  color: yellow !important;
+  font-size: 25px;
+}
+h1{
+  color: yellow !important;
+  font-size: 45px;
+}
+img{
+  padding-top: 20px;
+}

@@ -9,61 +9,27 @@
 </head>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/320px-Star_Wars_Logo.svg.png" height="55"alt="image">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Escolha1
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Persons</a>
-          <a class="dropdown-item" href="#">Starships</a>
-          <a class="dropdown-item" href="#">vehicles</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Escolha2
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-        </div>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+  <a href="/persons"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/320px-Star_Wars_Logo.svg.png" height="55"alt="image"></a>
+ 
+ 
 </nav>
-<a href="/persons">Back</a>
 <div *ngIf="selectedPerson" id="person_details" class="container-fluid text-center">
-    <h1 class="text-white">Person Details</h1>
+    <h1 class="text-white mt-5">{{selectedPerson.name}}</h1>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="{{image}}" class="rounded mx-auto d-block" height="250" alt="image_person">
-        <h3 class="text-center text-white">{{selectedPerson.name}}</h3>
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col-sm-6 ">
+        <img src="{{image}}" class=" mt-5 rounded mx-auto d-block" height="450" alt="image_person">
+        <!-- <h3 class="text-center text-white">{{selectedPerson.name}}</h3> -->
         </div>
-      <div class="col-sm-4" style="border: white;">
-        <p class="text-center text-white">Height: {{selectedPerson.height}}<br/>
-        Mass: 77<br/>
-        Hair Color: Blond<br/>
-        Skin Color: Fair<br/>
-        Eye Color: Blue<br/>
-        Birth Year: 19BBY<br/>
-        Gender: Male</p>
-      </div>
-      <div class="col-sm-4">
-        <app-vehicles></app-vehicles>
-        <app-starships></app-starships>
+      <div class="col-sm-6 mt-5" style="border: white;">
+        <p id="dados" class=" mt-5 text-center text-white">Height: {{selectedPerson.height}}<br/>
+        Peso: {{selectedPerson.mass}}<br/>
+        Cor do cabelo: {{selectedPerson.hair_color}}<br/>
+        Cor da pele: {{selectedPerson.skin_color}}<br/>
+        Cor dos olhos: {{selectedPerson.eye_color}}<br/>
+        Nascimento: {{selectedPerson.birth_year}}<br/>
+        Género: {{selectedPerson.gender}}</p><br/>
       </div>
     </div>
   </div>

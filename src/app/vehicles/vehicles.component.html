@@ -1,3 +1,11 @@
-<p>
-vehicles works!
-</p>
+<div id="persons" class="container-fluid text-center">
+    <h5>Veículos</h5>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let person of people;">
+          <a href="/persons/{{person.id}}"><h3 class="text-center">{{person.name}}</h3>
+        </a>
+      </div>
+    </div>
+  </div>

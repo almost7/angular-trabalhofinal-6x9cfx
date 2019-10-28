@@ -12,7 +12,7 @@ export const PERSONS = {
 'Anakin Skywalker' : 'https://vignette.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png',
 'Wilhuff Tarkin' : 'https://vignette.wikia.nocookie.net/starwars/images/c/c1/Tarkininfobox.jpg',
 'Chewbacca' : 'https://vignette.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png',
-'Han Solo' : 'https://vignette.wikia.nocookie.net/starwars/images/e/e2/TFAHanSolo.png',
+'Han Solo' : 'https://media.licdn.com/dms/image/C4D03AQFLqjdF6o7eJA/profile-displayphoto-shrink_200_200/0?e=1577923200&v=beta&t=yGhv_-UJm816eOmWnPTWYN4H1eCAnutH4khvmi4LU2I',
 'Greedo' : 'https://vignette.wikia.nocookie.net/starwars/images/c/c6/Greedo.jpg',
 'Jabba Desilijic Tiure' : 'https://vignette.wikia.nocookie.net/starwars/images/7/7f/Jabba_SWSB.png',
 'Wedge Antilles' : 'https://vignette.wikia.nocookie.net/starwars/images/6/60/WedgeHelmetless-ROTJHD.jpg',
@@ -85,7 +85,7 @@ export const PERSONS = {
 'Poe Dameron' : 'https://vignette.wikia.nocookie.net/starwars/images/7/79/Poe_Dameron_TLJ.png',
 'BB8' : 'https://vignette.wikia.nocookie.net/starwars/images/6/68/BB8-Fathead.png',
 'Captain Phasma' : 'https://vignette.wikia.nocookie.net/starwars/images/0/02/Phasma.png',
-'Taun We':'https://drive.google.com/open?id=1gxmplsnfPHcSlmiofPdmEDlL9nxDZyOg'};
+'Taun We' : 'https://i.pinimg.com/originals/49/d9/0a/49d90a3c817b21210701993bc042bcb4.jpg'};
 
 export const VEHICLES = {
 'Sand Crawler' : 'https://lumiere-a.akamaihd.net/v1/images/databank_sandcrawler_01_169_55acf6cb.jpeg?region=431%2C0%2C877%2C878',
